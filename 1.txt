@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Stock Area</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width;initial-scale=1;maximum-scale=1.0;  user-scalable=0;" name="viewport">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+body
+{
+background-repeat:no-repeat;
+background-size:cover;
+}
+b
+{
+font-size:25px;
+}
+p
+{
+font-size:25px;
+padding-bottom:10px;
+}
+strong
+{
+font-size:25px;
+}
+li
+{
+font-size:15px
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+.right {
+  text-align: right;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page-header img,p {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+</style>
+</head>
+<body background="sa.jpg">
+<div class="container">
+  <div class="page-header">
+   <img src="2.png" class="img-fluid" style="height:5%;width:5%" ><font color="red"> <b style="font-size:2vw;">travel bag free</b></font>
+<p class="text-right" style="font-size:2vw;">How it works&nbsp &nbsp &nbsp &nbsp Pricing&nbsp &nbsp &nbsp &nbsp FAQ&nbsp &nbsp &nbsp &nbsp<button type="button" class="btn btn-danger btn-lg">login</button></p>
+</div>
+<center><strong >Travel</strong> <font color="red"> <b >Hassle</b></font><strong > Free </strong><br>
+<li>store ur luggage in near by hotel and book ur rooms today</li></center><br/>
+<img src="4.png" class="img-fluid" style="height:50%;width:50%">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<img src="3.png" class="img-fluid" style="height:30%;width:30%" ><br><br>
+<center><img src="playstore.png" class="img-fluid" style="height:15%;width:15%">&nbsp &nbsp &nbsp<img src="appstore.png" class="img-fluid" style="height:5%;width:15%"></center><br><br><br>
+<div>
+<center><strong>How It Works</strong></center>
+<center><img src="5.png" class="img-fluid" style="height:50%;width:50%"></center><br><br>
+</div><br><br>
+<div class="inline block">
+<center><strong>LOCATION WE SUPPORT</strong></center><br><br>
+<div class="row">
+  <div class="column">
+    <img src="chennai.jpg" alt="Snow" class="img-fluid" style="height:90%;width:90%">
+ <center> <p><strong>chennai</p></strong></center>
+  </div>
+  <div class="column">
+    <img src="madurai.jpg" alt="Forest" class="img-fluid" style="height:90%;width:90%">
+<center> <p><strong>madurai</p></strong></center>
+  </div></div><br><br>
+<div class="row">
+  <div class="column">
+    <img src="bangalore.jpg" alt="Snow" class="img-fluid" style="height:90%;width:90%">
+ <center> <p><strong>bangalore</p></strong></center>
+  </div>
+  <div class="column">
+    <img src="covai.jpg" alt="Forest" class="img-fluid" style="height:90%;width:90%">
+<center> <p><strong>coimbatore</p></strong></center>
+  </div></div><br><br>
+<center><font color="red"> <b>REVIEW</b></font></center><br><br>
+<span class="heading">User Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 254 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div></div>
+<br><br>
+<center><font color="red"> <b>FAQ</b></font></center><br>
+<center><b>Have Any Questions?</b></center>
+     <div class="faqHeader"><strong>General questions</strong></div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <h4>Is account registration required?</h4>
+                </h4>
+            </div></div></div><br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <h4>Is there is a maximum item size?</h4>
+                </h4>
+            </div></div><br>
+<div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <h4>What if my plan changed?</h4>
+                </h4>
+            </div></div><br>
+<div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <h4>Are my item safe?</h4>
+                </h4>
+            </div></div><br>
+<div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <h4>Is account registration required?</h4>
+                </h4>
+            </div></div><br><br><br>
+<div class="row">
+  <div class="column">
+  <img src="2.png" height="60px" width="60px"><font color="red"> <b style="font-size:2vw;">travel bag free</b></font><br><br>
+<img src="playstore.png" class="img-fluid" style="height:30%;width:25%">&nbsp &nbsp &nbsp<img src="appstore.png" class="img-fluid" style="height:30%;width:25%">
+</div>
+<div class="column">
+<strong>Contact us</strong><br><br>
+<h4 class="glyphicon glyphicon-envelope">&nbspsupport@travelbagfree.com</h4><br><br>
+<h4 class="glyphicon glyphicon-phone">&nbsp044-2014256</h4>
+</div></div></div>
+</body>
+</html>
