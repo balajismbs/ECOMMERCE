@@ -24,7 +24,6 @@ public class App
 	 Userdao u=(Userdao)ctx.getBean("userdao");
 	 UserDetails s=new UserDetails();
 	 s.setUsername("balaji");
-	 
 	 u.addUser(s);
   
     }catch(Throwable e)
