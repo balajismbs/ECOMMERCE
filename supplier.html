@@ -1,0 +1,54 @@
+<html>
+<head>
+<link href="adminstyle.css" rel="stylesheet"/>
+<title>supplier</title>
+<script>
+var arr=[];
+function validate()
+{
+var supplier=document.forms["myform"]["supplier"].value;
+var address=document.forms["myform"]["address"].value;
+console.log(supplier.trim().length)
+if(console.log(supplier.trim().length==0)||console.log(address.trim().length==0))
+{
+console.log("there is no character")
+}
+else
+{
+var user={"supplier":supplier,"address":address}
+arr.push(user)
+}}
+function display()
+{
+document.write("<table border='2'>")
+document.write("<th>suppliername")
+document.write("<br>")
+document.write("<th>supplieraddress</th>")
+document.write("<br>")
+for(i=0;i<arr.length;i++)
+{
+
+
+document.write("<tr>")
+document.write("<td>")
+document.write(arr[i].supplier)
+document.write("<br>")
+document.write("<td>")
+document.write(arr[i].address)
+document.write("</br>")
+document.write("</tr>")
+}}
+</script>
+</head>
+<body>
+<h1>Supplier</h1>
+<form name='myform'>
+<div>
+enter the suppliername &nbsp &nbsp :
+<input type='text' name='supplier' placeholder='supplier name' size='40'/><br><br>
+enter the supplieraddress  &nbsp:
+<input type='text' name='address' placeholder='supplier address' size='40'/><br><br>
+<input type='reset' value='proceed' onclick='validate()'/>
+<input type='button' value='display' onclick='display()'/></div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+<head>
+<link href="adminstyle.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<title>product</title>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+var arr=[];
+function validate()
+{
+var productname=document.forms["myform"]["productname"].value;
+var price=document.forms["myform"]["price"].value;
+var quantity=document.forms["myform"]["quantity"].value;
+console.log(productname.trim().length)
+if(console.log(productname.trim().length==0)||console.log (price.trim().length==0)||console.log(quantity.trim().length==0))
+{
+console.log("there is no character")
+}
+else
+{
+var user={"productname":productname,"price":price,"quantity":quantity}
+arr.push(user)
+}}
+function display()
+{
+document.write("<table border='2'>")
+document.write("<th>productname")
+document.write("<br>")
+document.write("<th>price")
+document.write("<br>")
+document.write("<th>quantity</th>")
+for(i=0;i<arr.length;i++)
+{
+document.write("<tr>")
+document.write("<td>")
+document.write(arr[i].productname)
+document.write("<br>")
+document.write("<td>")
+document.write(arr[i].price)
+document.write("</br>")
+document.write("<td>")
+document.write(arr[i].quantity)
+document.write("</br>")
+document.write("</tr>")
+}}
+</script>
+</head>
+<body>
+<h1>Product</h1>
+<form name='myform'>
+<div class="alert alert-warning">
+<strong>warning!</strong> this is only used to enter the product details </div>
+<div>
+enter the product name &nbsp:
+<input type='text' name='productname' placeholder='product name' size='40'/><br><br>
+enter the price &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp:
+<input type='text' name='price' placeholder='price' size='40'/><br><br>
+enter the quantity &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp:
+<input type='text' name='quantity' placeholder='quantity' size='40'/><br><br>
+<input type='reset' value='proceed' onclick='validate()'/>
+<input type='button' value='display' onclick='display()'/></div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<title>ECOMMERCE SITE</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+var arr=[];
+arr.push(foo);
+function cart()
+{
+var foo=document.getElementById('count').innerHTML;
+foo++;
+document.getElementById('count').innerHTML =foo;
+}
+</script>
+<style>
+.centre
+{
+text-align:left;
+}
+header
+{
+text-align:right;
+background-color:grey;
+padding:40px;
+color:black;
+}
+div
+{
+height:310;
+width:310;
+display:inline-block;
+}
+a
+{
+font-size:20;
+display:inline-block;
+padding:5px 20px;
+text-decoration:none;
+text-color:black;
+}
+.button
+{
+background-color:white;
+color:black;
+text-align:center;
+text-decoration:none;
+margin:2 90;
+}
+.dropdown
+{
+position:relative;
+display:inline-block;
+}
+.dropdown-content
+{
+display:none;
+position:absolute;
+background-color:white;
+box-shadow:0 8 16 0 rgba(0,0,0,0.2);
+min-width:160;
+padding:12 16;
+}
+.dropdown:hover .dropdown-content
+{
+display:block;
+}
+span
+{
+font-size:25;
+padding:5 10;
+}
+p
+{
+font-size:20;
+color:blue;
+}
+p
+{
+text-align:center;
+}
+h1,nav a
+{
+dispaly:inline-block;
+}
+h1,input,nav
+{
+display:inline-block;
+}
+input
+{
+text-align:center;
+padding:5;
+font-size:25;
+}
+nav
+{
+padding-top:10;
+}
+img
+{
+width:250;
+height:250;
+-webkit-transition: width 1s, height 1s;
+transition: width 1s, height 1s;
+}
+img:hover
+{
+width:300;
+height:300;
+}
+</style>
+</head>
+<body  >
+<header><h1 style="float:left;">
+SHOPPING SITE :
+<input type='text' placeholder='search for products....' size='80'/></h1><nav>
+<a href="./login.html" class="button">login</a>
+<a href="./signup.html" class="button">sign up</a>
+<a href="#" class="button">aboutus</a>
+<a href="#" class="button">cart<span id="count">0</span></a>
+<a href="#" class="button">wishlist</a></header></nav><br>
+<ul>
+<label class="dropdown">
+<span>electronics</span>
+<label class="dropdown-content">
+<p>laptop</p>
+<p>mobiles</p>
+<p>watches</p>
+<p>cameras</p>
+<p>speakers </p>
+<p>home automation</p>
+</label></label>
+<label class="dropdown">
+<span>kids & babies</span>
+<label class="dropdown-content">
+<p>boys clothing</p>
+<p>girls clothing</p>
+<p>baby care</p>
+<p>baby's winter wear</p>
+</label></label>
+<label class="dropdown">
+<span>men</span>
+<label class="dropdown-content">
+<p>clothing</p>
+<p>sports wear</p>
+<p>seasonal wear</p>
+</label></label>
+<label class="dropdown">
+<span>women</span>
+<label class="dropdown-content">
+<p>clothing</p>
+<p>sports wear</p>
+<p>seasonal wear</p>
+</label></label></ul><br>
+<div>
+<img src="ad1.jpg" height="50" width="50">
+</div>
+<div><figure><a href='./about.html'><img src="1.jpg" height="150" width="150"></a>
+<figcaption><center>headphones ax1000 wireless and bluetooth connectivity</center></figcaption>
+</figure><input type="button" value="add to cart" onclick="cart()">
+</div>
+<div><figure><a href='./2i.html'><img src="2.jpg" height="200" width="200"></a>
+<figcaption><center>headphones ax1001 with wireless</center></figcaption></figure>
+</div>
+<div><figure><a href='./3i.html'><img src="3.jpg" height="200" width="200"></a>
+<figcaption><center>wireless headphones with bluetooth connectivity ax1002</center></figcaption>
+</figure></div>
+<div>
+<img src="ad1.jpg" height="400" width="300">
+</div>
+<div><figure><a href='./4i.html'><img src="101.jpg" height="200" width="200"></a>
+<figcaption><center>wireless headphones with bluetooth connectivity ax1002</center></figcaption>
+</figure></div>
+<div><figure><a href='./5i.html'><img src="102.jpg" height="200" width="200"></a>
+<figcaption><center>wireless headphones with bluetooth connectivity ax1002</center></figcaption>
+</figure></div>
+<div><figure><a href='./6i.html'><img src="103.jpg" height="200" width="200"></a>
+<figcaption><center>wireless headphones with bluetooth connectivity ax1002</center></figcaption>
+</figure></div><br>
+</body>
+</html>
