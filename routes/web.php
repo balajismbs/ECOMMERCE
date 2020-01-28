@@ -1,0 +1,28 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('test','taskcontroller')->middleware('user');
+// Route::get('friend/{{id}}','HomeController@friend')->middleware('user');
+Route::get('friend/{name}','HomeController@addfriend')->middleware('user');
+Route::get('request','HomeController@request')->middleware('user');
+Route::get('accept/{name}','HomeController@accept')->middleware('user');
+Route::get('hello','HomeController@friend')->middleware('user');
+Route::get('remove/{id}','HomeController@remove')->middleware('user');
+Route::get('unfriend/{id}','HomeController@unfriend')->middleware('user');
